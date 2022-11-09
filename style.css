@@ -13,24 +13,15 @@ h1 {
   margin-bottom: 30px;
 }
 
-.scissor {
-  transform: rotate(3.142rad);
-}
-
 .wrapper {
   background: #1c1c1c;
   color: white;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
-  flex-direction: column;
-}
-
-.buttons {
-  display: flex;
-  gap: 20px;
 }
 
 button {
@@ -41,10 +32,15 @@ button {
   cursor: pointer;
 }
 
+.scissor {
+  transform: rotate(3.142rad);
+}
+
 .resultContainer {
   font-size: 2rem;
   text-align: center;
   margin-top: 20px;
+  color: wheat;
 }
 
 .scores-container {
@@ -54,10 +50,10 @@ button {
   margin-bottom: 20px;
 }
 
-#result {
+#hands {
   margin-bottom: 20px;
 }
 
-.result {
-  color: wheat;
+#result {
+  margin-bottom: 20px;
 }

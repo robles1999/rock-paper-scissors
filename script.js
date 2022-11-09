@@ -59,12 +59,6 @@ function showResult(score, playerChoice, computerChoice) {
 
   const resultDisplay = document.getElementById("result");
   resultDisplay.innerHTML = result;
-
-  // console.log('player score: ' + playerScore + '/' + count +
-  //   '  computer score: ' + computerScore + '/' + count)
-  // Hint: on a score of -1
-  // You should do result.innerText = 'You Lose!'
-  // Don't forget to grab the div with the 'result' id!
 }
 
 // ** Calculate who won and show it on the screen **
