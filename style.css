@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #1c1c1c;
+}
+
+h1 {
+  text-align: center;
+  color: wheat;
+  margin-bottom: 30px;
+}
+
+.scissor {
+  transform: rotate(3.142rad);
+}
+
+.wrapper {
+  background: #1c1c1c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  font-size: 48px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.resultContainer {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.scores-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-bottom: 20px;
+}
+
+.result {
+  color: wheat;
+}
